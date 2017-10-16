@@ -1,0 +1,133 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+body{
+	font: 400 18px/1.2 "Raleway", sans-serif;
+	color: #303030;
+	background-color: #eee;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+.ba-menu li {
+	display: inline-block;
+}
+
+.ba-logo {
+	float: left;
+}
+.ba-logo img {
+	display: block;
+	padding-top: 48px;
+}
+.ba-nav {
+	float: right;
+	padding-top: 64px;
+}
+
+.ba-menu {
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+.ba-menu a {
+	font-family: 'Roboto', sans-serif;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: left;
+	text-decoration: none;
+	padding: 0 0 0 24px;
+}
+
+.ba-bw-article {
+	float: left;
+	// position: absolute;
+	top: 153px;
+	width: 60%;
+	text-align: right;
+}
+
+.ba-headphones {
+	float: right;
+	width: 30%;
+}
+
+.ba-title {
+	font: 900 150px/1 'Raleway', sans-serif;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	margin: 0 55px 0 0;
+}
+
+.ba-slider {
+    padding-top: 187px;
+    width: 100%;
+}
+
+.ba_view-project {
+	font-family: 'Roboto';
+	color:  #e10011;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+	padding: 0 55px 0 0;
+}
+
+.ba-slider p {
+	    margin: 0;
+	    padding: 24px 55px 12px 38px;
+	    font: 300 24px/1.5 'Roboto', sans-serif;
+	    color:  #303030;
+	    text-align: right;
