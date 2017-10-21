@@ -191,3 +191,12 @@ textarea {
 	left: 178px;
 	top: 171px;
 }
+
+
+.ba-col-70 {
+	max-width: 70%;
+}
+
+.ba-col-30 {
+	max-width: 32%;
+}
